@@ -316,13 +316,13 @@ hr{
       #card_item{
         position: relative;
         z-index: 5;
-        margin-top: 53rem ;
+        margin-top: 51rem ;
     }
     
       .laptop-working-img{
         width: 100%;
         border-radius: 20px;
-        height: 20rem;
+        height: 12rem;
     }
     
     
