@@ -322,7 +322,11 @@ hr{
       .laptop-working-img{
         width: 100%;
         border-radius: 20px;
-        height: 11rem;
+        height: 9rem;
+    }
+    
+    .card_booking{
+        font-size: 1.8rem;
     }
     
     
