@@ -1,0 +1,313 @@
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    text-align: center;
+}
+  
+h1, h2, h3, h4, h5, h6 {
+    font-family: "Montserrat-Bold";
+}
+
+hr{
+    width: 90%;
+    background-color: rgb(36, 32, 32);
+}
+
+.color_white{
+    color: white;
+
+}
+
+/* Containers */
+
+.container-fluid{
+    padding: 6% 10%;
+}
+
+
+/* navbar item */
+
+#header_items{
+    background: #69479c;  
+}
+
+.card_logo{
+    font-size: 2rem ;
+}
+
+.card_element{
+    font-size: 1.2rem;
+}
+
+.home_tag{
+    text-decoration:1.5px underline ;
+    text-underline-position: under;
+}
+
+.page_dropdown{
+    background-color: #CFBFD9;
+    border-radius: 10px;
+}
+
+/* navbar item end  */
+
+/* top container start   */
+
+#top_container{
+    text-align: left;
+    background: #69479c; 
+    position:absolute;
+    z-index: 1; 
+}
+
+.container-fluid{
+    padding: 2% 10% 8% 10%;
+}
+
+.big-heading {
+    font-family: "Montserrat-Black";
+    font-size: 3.5rem;
+    line-height: 1.5;
+}
+
+.bank-card-img{
+    float: right;
+    width: 80%;
+    border-radius: 20px;
+}
+
+.small_heading{
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 1.2rem;
+  font-weight:550;
+  line-height: 1.5;
+}
+
+.button_color{
+    background-color:#461f81 ;
+    margin-right:20px;
+}
+
+.button_style{
+    border-radius: 30px;
+    margin: 20px 0 ;
+   
+    /* z-index: ; */
+   
+}
+
+.button_style:hover{
+    background-color: #fff;
+    color:#290c55 ;
+    box-shadow: 5px 5px;
+}
+
+/* top container end  */
+
+ /* card item  start */
+
+#card_item{
+    position: relative;
+    z-index: 5;
+    margin-top: 25rem;
+}
+
+.card_detail{
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 1.1rem;
+    line-height: 1.5;
+    padding: 10px 15px;
+    background-color: rgb(250, 241, 241);
+}
+
+.card_detail:hover{
+    margin-bottom: 2px;
+    box-shadow: 5px 8px grey;
+
+}
+
+.fab_icon{
+    color:#6531b3; 
+    background-color: rgb(223, 217, 217);
+    margin: 0 2% 3% 0;
+    padding: 3%;
+    border-radius: 100%;
+}
+
+  /* card item  end */
+
+
+/* mid item start  */
+
+#advertisement{
+    text-align: left; 
+}
+
+.sub_heading{
+    font-family: "Montserrat-Black";
+    font-size: 2rem;
+    line-height: 1.5;
+    margin-bottom: 3%;
+    
+}
+
+.sub_title{
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 1.1rem;
+}
+
+.laptop-working-img{
+    width: 100%;
+    border-radius: 20px;
+    height: 20rem;
+}
+
+ /* mid item end  */
+
+
+ /* Advantance And Detail start */
+
+#feature{
+    background-color: rgb(223, 219, 219);
+    padding-top: 5rem;
+   
+ }
+
+.feature_head{
+     color:  #270e4d ;
+ }
+
+.discription_pharagraph{
+    text-align: left;    
+}
+
+
+.feature_icon{
+    color:#6531b3; 
+    margin: 5% 3%;
+}
+
+ 
+.aditya{
+    border-radius: 100%;
+     margin: 10px;
+     width: 50%;
+}
+
+/* Bank Card Advertisement */
+
+.bank_ad{
+    padding: 3% 0 2% ;
+    background-color:#69479c ;
+}
+
+.bank_ad_button{
+    margin-top: 0px;
+}
+
+/* Card Booking Section */
+
+/* .sub_heading for larger font size,
+.feature_head for  same color,
+.fab_icon for icon color. */
+
+/* .booking_phara{
+    font-family: 'Balsamiq Sans';
+    
+} */
+
+/* footer Start  */
+
+#footer_element{
+    background-color:#69479c ;
+    padding: 4% 0 3% ;
+}
+
+.footer_icon{
+    color: rgb(34, 33, 33);
+}
+
+.footer_icon:hover{
+    color: rgb(151, 148, 148);
+}
+ 
+
+@media screen and (max-width: 1090px) {
+    #card_item{
+        position: relative;
+        z-index: 5;
+        margin-top: 29rem;
+    }
+
+}
+
+@media screen and (max-width: 990px) {
+
+    #card_item{
+        position: relative;
+        z-index: 5;
+        margin-top: 24rem;
+    }
+
+    .bank-card-img{
+        margin-top: 3rem;
+        float: right;
+        width: 100%;
+        border-radius: 20px;
+    } 
+
+    .laptop-working-img{
+        width: 100%;
+        border-radius: 20px;
+        height: 30rem;
+    }
+    
+
+}
+
+@media screen and (max-width: 770px) {
+    #card_item{
+        position: relative;
+        z-index: 5;
+        margin-top: 47rem ;
+    }
+
+    .card_media{
+        margin-bottom: 3rem;
+      
+    }
+    .card_detail{
+        font-family: 'Ubuntu', sans-serif;
+        font-size: 1.1rem;
+        line-height: 1.5;
+        padding: 10px 15px;
+        background-color: rgb(250, 242, 242);
+    }
+
+    .feature_media{
+        margin-bottom: 2.5rem;
+        padding: 0 8%;
+    }
+
+ 
+    .aditya_photo{
+        margin-bottom: 20px;
+    }
+
+    .booking_phara{
+        padding:0 10% ;
+    }
+    
+    .aditya{
+        border-radius: 100%;
+         margin: 10px;
+         width: 30%;
+    }
+    
+
+
+}
+
