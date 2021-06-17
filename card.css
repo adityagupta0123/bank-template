@@ -272,12 +272,12 @@ hr{
     #card_item{
         position: relative;
         z-index: 5;
-        margin-top: 50rem ;
+        margin-top: 29rem ;
     }
 
 }
 
-@media screen and (max-width: 770px) {
+@media screen and (max-width: 768px) {
     #card_item{
         position: relative;
         z-index: 5;
@@ -325,13 +325,13 @@ hr{
       #card_item{
         position: relative;
         z-index: 5;
-        margin-top: 53rem ;
+        margin-top: 54rem ;
     }
     
       .laptop-working-img{
         width: 100%;
         border-radius: 20px;
-        height: 10rem;
+        height: 9rem;
     }
     
     .card_booking{
