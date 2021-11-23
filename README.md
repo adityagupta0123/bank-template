@@ -1,2 +1,2 @@
 # bank-template
-https://adityagutpa0123.github.io/bank-template/
+https://adityagupta0123.github.io/bank-template/
